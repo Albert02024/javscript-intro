@@ -13,4 +13,4 @@ const pi = 3.14159265359;
 
 console.log(nombre);
 console.log(mensaje);
-console.log(pi);
+console.log(pi); // Constante no se puede reescribir
