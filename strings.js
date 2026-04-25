@@ -17,12 +17,8 @@ console.log(nombre.toUpperCase());
 //tolowercase
 console.log(nombre.toLowerCase());
 
-// slice 
+// Slice 
 console.log(nombre.slice(0,3));
 
-
-
-
-
-
-
+let texto = "Hola desde JS";
+console.log(texto.split(" ")
