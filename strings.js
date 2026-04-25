@@ -21,4 +21,5 @@ console.log(nombre.toLowerCase());
 console.log(nombre.slice(0,3));
 
 let texto = "Hola desde JS";
-console.log(texto.split(" ")
+console.log(texto.split(" "));
+
