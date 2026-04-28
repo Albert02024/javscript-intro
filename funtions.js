@@ -39,7 +39,7 @@ console.log('la suma de a y b es igual a', sumar(5, 7))
 
 
 //funcion que determine por medio de un parametro si estoy aprobado o reprobado nota minima es: 7
-const evaluar = (nota) => {
+const evaluar = () => {
     if (nota >= 7) {
         console.log('Aprobado')
     } else {
