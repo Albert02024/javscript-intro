@@ -29,3 +29,20 @@ const multiplicar =(a, b = 2) => {
 multiplicar(5, 20) 
 
 /*FUNCION QUE DETERMINE POR MEDIO DE UN PARAMETRO SI ESTOY APROBADO O REPROBADO NOTA MINIMA ES : 7*/
+
+
+const sumar =(a, b) => { 
+    return a + b
+}
+
+console.log('la suma de a y b es igual a', sumar(5, 7))
+
+
+//funcion que determine por medio de un parametro si estoy aprobado o reprobado nota minima es: 7
+const evaluar = (nota) => {
+    if (nota >= 7) {
+        console.log('Aprobado')
+    } else {
+        console.log('Reprobado')
+    }
+}
